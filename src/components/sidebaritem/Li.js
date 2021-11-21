@@ -8,7 +8,7 @@ const Li = (props) => {
             <div className="borderdiv">   
             </div>
             <div className="contentmain">
-                <img src={props.icon} width="35px" />
+                <img src={props.icon} width="35px" alt={props.title}/>
                 <span className="h4 ms-2">{props.title}</span>
             </div>
 
