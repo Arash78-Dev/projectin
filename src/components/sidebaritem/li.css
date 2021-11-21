@@ -31,6 +31,10 @@
     height: 90vh;
 }
 
+.panel{
+    height: 10vh;
+}
+
 .scrollbarstyle::-webkit-scrollbar{
     width: 6px;
 }
@@ -44,6 +48,18 @@
    background-color: white;
    border: 1px solid rgb(182, 182, 182);
    border-radius: 5px;
+}
+
+@media (max-width:1200px) {
+    .scrollbarstyle{
+        height: 75vh;
+    }
+    .panel{
+        height: 15vh;
+    }
+    .button{
+        height: 10vh;
+    }
 }
 
 

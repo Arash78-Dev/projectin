@@ -1,8 +1,24 @@
 .sidebar{
 width: 230px !important;
-
 }
 
 .main{
-  margin-right: 240px;
+  margin-right: 260px;
+}
+
+
+@media (max-width:1200px) {
+  .sidebar{
+    right: -245px;
+    z-index: 1000;
+  }
+  .show{
+    right: 0px !important;
+  }
+  .hidden{
+    right: -245px;
+  }
+  .main{
+    margin-right: 0px;
+  }
 }

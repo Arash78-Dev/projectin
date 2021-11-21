@@ -1,0 +1,18 @@
+.card{
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 6px 2px rgb(136, 136, 136);
+    border: 2px solid white;
+    transition: 0.1s;
+    cursor: pointer;
+}
+.card:hover{
+    border: 2px solid rgb(122, 73, 185);
+}
+.card div{
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

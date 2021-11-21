@@ -1,10 +1,13 @@
 import React from 'react'
+import Contentmain from './maincontent/Contentmain'
+import Navbar from './navbar/Navbar'
 
-const Main = () => {
+const Main = ({add}) => {
     return (
-        <div >
-            hello
-        </div>
+        <>
+            <Navbar add={add}/>
+            <Contentmain/>
+        </>
     )
 }
 

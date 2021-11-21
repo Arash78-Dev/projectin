@@ -1,0 +1,40 @@
+.searching{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    width: 400px;
+}
+.searching input{
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+.active{
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.pointer{
+    cursor: pointer;
+}
+.pagin{
+    width: 50%;
+}
+@media (max-width:992px) {
+      
+}
+@media (max-width:768px) {
+    .pagin{
+        width: 60%;
+    }  
+}
+@media (max-width:576px) {
+    .pagin{
+        width: 90%;
+    }  
+    .searching{
+        width: 350px;
+        margin:10px auto;
+    } 
+}

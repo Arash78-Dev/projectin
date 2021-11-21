@@ -13,14 +13,15 @@ import icon8 from'../asset/icon8.png'
 import icon9 from'../asset/icon9.png'
 import img from '../asset/house.jpg'
 
-const Sidebar = () => {
+const Sidebar = ({close}) => {
     return (
         <div className="d-flex flex-column bg-white">
-            <div className="d-flex justify-content-center align-center p-2" style={{height:'10vh'}}>
+            <button className="btn btn-danger btn-block d-xl-none button" onClick={close}>بستن</button>
+            <div className="d-flex justify-content-center align-center p-2 panel" >
                 <img src={img} alt="icon" width="30%" height="70%"></img>
                 <div className="ms-2">
                     <h5>پنل مدیریت</h5>
-                    <p className="text-muted">متنا</p>    
+                    <p className="text-muted" style={{marginTop:'-6px' , fontSize:'16px'}}>متنا</p>    
                 </div>
             </div>
             <div className="scrollbarstyle">

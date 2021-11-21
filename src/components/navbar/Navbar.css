@@ -1,0 +1,25 @@
+.input {
+    background-color: rgb(241, 241, 241);
+    border-radius: 30px;
+    padding: 1px 5px;
+    width: 30%;
+}
+.input span{
+    cursor: pointer;
+    color: rgb(173, 173, 173);
+    margin-right: 5px;
+}
+
+.input input{
+    background-color: transparent;
+    border: none !important;
+    outline: none;
+    margin-right: 10px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.borderdivi{
+    width: 3px;
+    height: 70%;
+    background-color: purple;
+}
